@@ -1,4 +1,4 @@
 function squareDigits(num){
-let n= num.toString().split('').map(n => n * n).join('')
-return Number(n)
+let n1= num.toString().split('').map(n => n * n).join('')
+return Number(n1)
 }
